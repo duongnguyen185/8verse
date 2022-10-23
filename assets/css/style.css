@@ -273,7 +273,7 @@
   min-height: 100vh;
   display: grid;
   align-items: center;
-  background-position: left;
+  background-position: center;
 }
 
 .hero .section-subtitle {

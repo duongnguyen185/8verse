@@ -272,6 +272,15 @@
   /**
      * HERO
      */
+
+  .hero {
+    margin-block-start: 55px;
+    min-height: 110vh;
+    display: grid;
+    align-items: center;
+    background-position: center;
+  }
+
   .hero .hero-title {
     font-weight: var(--fw-600);
   }
