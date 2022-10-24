@@ -224,15 +224,15 @@
   background-color: var(--rich-black-fogra-39);
   padding: 130px 16px;
   z-index: 1;
-  transition: 0.5s var(--cubic-in);
-  transition-delay: 0.5s;
+  transition: 0.25s var(--cubic-in);
+  transition-delay: 0.1s;
   visibility: hidden;
 }
 
 .navbar.active {
   transform: translateY(100%);
   visibility: visible;
-  transition: 0.75s var(--cubic-out);
+  transition: 0.25s var(--cubic-out);
   transition-delay: 0s;
 }
 
@@ -244,7 +244,7 @@
 
 .navbar.active > * {
   opacity: 1;
-  transition-delay: 0.75s;
+  transition-delay: 0.35s;
 }
 
 .navbar-link {
