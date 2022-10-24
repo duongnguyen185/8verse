@@ -662,6 +662,7 @@ iframe {
   width: 200px;
   height: 200px;
   border-radius: var(--radius-circle);
+  object-fit: cover;
 }
 
 .team-name {
