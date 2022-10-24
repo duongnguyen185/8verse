@@ -333,6 +333,15 @@
     grid-template-columns: repeat(4, 1fr);
     gap: 20px;
   }
+
+  .footer-icon-box {
+    color: var(--white);
+    font-size: var(--fs-3);
+  }
+
+  .footer-item-text {
+    font-size: var(--fs-3);
+  }
 }
 
 /**

@@ -822,7 +822,7 @@ iframe {
 
 .footer-icon-box {
   color: var(--white);
-  font-size: var(--fs-3);
+  font-size: var(--fs-4);
 }
 
 .footer-icon-box img {
@@ -835,7 +835,7 @@ iframe {
 
 .footer-item-text {
   color: var(--white);
-  font-size: var(--fs-3);
+  font-size: var(--fs-4);
   font-weight: var(--fw-3);
   line-height: 1.6;
 }
