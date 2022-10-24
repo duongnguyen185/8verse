@@ -668,9 +668,10 @@ iframe {
 .team-name {
   font-size: var(--fs-4);
   font-weight: var(--fw-400);
-  line-height: 3.2;
   font-family: var(--ff-kanit);
   color: var(--white);
+  padding-top: 2.5rem;
+  line-height: 1;
 }
 .team-text {
   font-family: var(--ff-electrolize);
