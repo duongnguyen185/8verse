@@ -73,6 +73,8 @@ window.addEventListener('scroll', revealOnScroll);
 
 revealOnScroll();
 
+// bg video of our products
+
 let player1;
 let player2;
 let player3;
