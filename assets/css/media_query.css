@@ -95,7 +95,7 @@
      */
 
   .hero {
-    padding-block: 230px;
+    /* padding-block: 230px; */
     background-position: center;
   }
 
@@ -279,6 +279,11 @@
     display: grid;
     align-items: center;
     background-position: center;
+    background-image: url("../images/home.jpg");
+  }
+
+  .hero .container {
+    padding-bottom: 100px;
   }
 
   .hero .hero-title {
