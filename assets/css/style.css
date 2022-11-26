@@ -296,8 +296,7 @@
 }
 
 .hero .logo {
-  width: 188px;
-  margin-bottom: 5rem;
+  display: none;
 }
 
 /*-----------------------------------*\
