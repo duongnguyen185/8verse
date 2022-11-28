@@ -70,7 +70,7 @@
 
 .has-before::before,
 .has-after::after {
-  content: '';
+  content: "";
   position: absolute;
 }
 
@@ -273,7 +273,8 @@
   min-height: 100vh;
   display: grid;
   align-items: center;
-  background-position: center;
+  background-position: right;
+  background-image: url("../images/home-mobile.jpg");
 }
 
 .hero .section-subtitle {
@@ -295,8 +296,7 @@
 }
 
 .hero .logo {
-  width: 188px;
-  margin-bottom: 5rem;
+  display: none;
 }
 
 /*-----------------------------------*\
@@ -471,7 +471,7 @@
 }
 
 .play-btn:after {
-  content: '';
+  content: "";
   position: absolute;
   top: 50%;
   left: 50%;
@@ -600,7 +600,7 @@ iframe {
 }
 
 .milstones-item::before {
-  content: '';
+  content: "";
   position: absolute;
   inset: 1px;
   background: #282e36;

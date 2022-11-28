@@ -13,6 +13,17 @@
 \*-----------------------------------*/
 
 /**
+ * responsive for large than 480px screen
+ */
+
+@media (max-device-width: 479px) {
+  .hero-title {
+    color: white;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.8), 0px 0px 2px rgba(0, 0, 0, 1);
+  }
+}
+
+/**
  * responsive for large than 575px screen
  */
 
@@ -95,7 +106,7 @@
      */
 
   .hero {
-    padding-block: 230px;
+    /* padding-block: 230px; */
     background-position: center;
   }
 
@@ -231,6 +242,7 @@
   .header-bottom.active {
     top: 0;
   }
+
   .header-bottom .logo {
     display: none;
   }
@@ -279,10 +291,21 @@
     display: grid;
     align-items: center;
     background-position: center;
+    background-image: url("../images/home.jpg");
+  }
+
+  .hero .container {
+    padding-bottom: 100px;
   }
 
   .hero .hero-title {
     font-weight: var(--fw-600);
+  }
+
+  .hero .logo {
+    width: 188px;
+    margin-bottom: 5rem;
+    display: block;
   }
 
   /**
