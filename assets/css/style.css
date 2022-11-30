@@ -70,7 +70,7 @@
 
 .has-before::before,
 .has-after::after {
-  content: "";
+  content: '';
   position: absolute;
 }
 
@@ -274,7 +274,7 @@
   display: grid;
   align-items: center;
   background-position: right;
-  background-image: url("../images/home-mobile.jpg");
+  background-image: url('../images/home-mobile.jpg');
 }
 
 .hero .section-subtitle {
@@ -347,19 +347,71 @@
 /*-----------------------------------*\
   #OUR SERVICES
 \*-----------------------------------*/
+.service .slider {
+  --slider-item: 1;
+
+  position: relative;
+  /* margin-inline: -8px; */
+  /* padding: 4px 2px; */
+  overflow: hidden;
+}
+
+.service .slider-container {
+  position: relative;
+  display: flex;
+  transition: transform 300ms ease;
+}
+
+.slider-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: var(--oxford-blue-2);
+  font-size: 1.7rem;
+  width: 32px;
+  height: 32px;
+  display: grid;
+  place-items: center;
+  border-radius: var(--radius-circle);
+  box-shadow: var(--shadow-2);
+  transition: var(--transition-1);
+}
+
+.slider-btn:is(:hover, :focus-visible) {
+  background-color: var(--blue-violet);
+}
+
+.slider-btn:disabled {
+  display: none;
+}
+
+.slider-btn.prev {
+  left: 1px;
+}
+
+.slider-btn.next {
+  right: 1px;
+}
+
+.service .container > .btn-link {
+  margin-inline: auto;
+  margin-block-start: 32px;
+}
 
 .service .section-title {
   margin-bottom: 30px;
 }
 
 .service-list {
-  display: grid;
-  grid-template-columns: 1fr;
-  gap: 20px;
+  position: relative;
+  display: flex;
+  transition: transform 300ms ease;
 }
 
-.service-item:not(last-child) {
-  padding-bottom: 15px;
+.service .service-item {
+  min-width: calc(100% / var(--slider-item));
+  width: calc(100% / var(--slider-item));
+  padding-inline: 12px;
 }
 
 .service-card {
@@ -405,6 +457,7 @@
 .service-card .card-content {
   padding: 20px;
   background: #282e36;
+  min-height: 250px;
 }
 
 .service-card .card-title {
@@ -471,7 +524,7 @@
 }
 
 .play-btn:after {
-  content: "";
+  content: '';
   position: absolute;
   top: 50%;
   left: 50%;
@@ -600,7 +653,7 @@ iframe {
 }
 
 .milstones-item::before {
-  content: "";
+  content: '';
   position: absolute;
   inset: 1px;
   background: #282e36;
@@ -645,9 +698,9 @@ iframe {
   gap: 30px;
 }
 
-.team-list li {
-  /* max-width: 10%; */
-}
+/* .team-list li {
+  max-width: 10%;
+} */
 
 .team-member {
   border-radius: var(--radius-circle);

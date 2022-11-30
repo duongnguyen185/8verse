@@ -12,7 +12,8 @@
   --white_a10: hsla(0, 0%, 100%, 1);
   --camel: hsl(27, 34%, 58%);
   --white: hsl(0, 0%, 100%);
-
+  --oxford-blue-2: hsla(222, 47%, 11%, 0.1);
+  --blue-violet: hsla(262, 83%, 58%, 1);
   /**
      * gradient
      */
@@ -49,11 +50,25 @@
   --section-padding: 70px;
 
   /**
+   * box shadow
+   */
+
+  --shadow-1: 0 0 3px hsl(215, 28%, 17%);
+  --shadow-2: 0 5px 13px hsl(215, 28%, 17%);
+  --shadow-3: 0 5px 13px hsl(217, 19%, 27%);
+  --shadow-4: 0 0 3px hsl(217, 19%, 27%);
+  --shadow-5: 0 5px 13px hsla(214, 19%, 29%, 0.2);
+
+  /**
      * border radius
      */
 
-  --radius-circle: 50%;
   --radius-5: 5px;
+  --radius-circle: 50%;
+  --radius-pill: 100px;
+  --radius-12: 12px;
+  --radius-8: 8px;
+  --radius-6: 6px;
 
   /**
      * transition
