@@ -70,7 +70,7 @@
 
 .has-before::before,
 .has-after::after {
-  content: '';
+  content: "";
   position: absolute;
 }
 
@@ -274,7 +274,7 @@
   display: grid;
   align-items: center;
   background-position: right;
-  background-image: url('../images/home-mobile.jpg');
+  background-image: url("../images/home-mobile.jpg");
 }
 
 .hero .section-subtitle {
@@ -524,7 +524,7 @@
 }
 
 .play-btn:after {
-  content: '';
+  content: "";
   position: absolute;
   top: 50%;
   left: 50%;
@@ -545,6 +545,18 @@
   display: none;
 }
 #video-container-4 {
+  display: none;
+}
+#video-container-5 {
+  display: none;
+}
+#video-container-6 {
+  display: none;
+}
+#video-container-7 {
+  display: none;
+}
+#video-container-8 {
   display: none;
 }
 
@@ -587,6 +599,18 @@ iframe {
 .video-is-open4:after {
   display: none;
 }
+.video-is-open5:after {
+  display: none;
+}
+.video-is-open6:after {
+  display: none;
+}
+.video-is-open7:after {
+  display: none;
+}
+.video-is-open8:after {
+  display: none;
+}
 
 .video-is-open #play-button1 {
   opacity: 1;
@@ -599,6 +623,18 @@ iframe {
   opacity: 1;
 }
 .video-is-open4 #play-button4 {
+  opacity: 1;
+}
+.video-is-open5 #play-button5 {
+  opacity: 1;
+}
+.video-is-open6 #play-button6 {
+  opacity: 1;
+}
+.video-is-open7 #play-button7 {
+  opacity: 1;
+}
+.video-is-open8 #play-button8 {
   opacity: 1;
 }
 
@@ -623,6 +659,30 @@ iframe {
   transition: transform 0.5s ease-out;
 }
 .video-is-open4 .play-btn:after {
+  width: 2vh;
+  height: 2vh;
+  transform: translate(-50%, -50%) scale(88.8888888889);
+  transition: transform 0.5s ease-out;
+}
+.video-is-open5 .play-btn:after {
+  width: 2vh;
+  height: 2vh;
+  transform: translate(-50%, -50%) scale(88.8888888889);
+  transition: transform 0.5s ease-out;
+}
+.video-is-open6 .play-btn:after {
+  width: 2vh;
+  height: 2vh;
+  transform: translate(-50%, -50%) scale(88.8888888889);
+  transition: transform 0.5s ease-out;
+}
+.video-is-open7 .play-btn:after {
+  width: 2vh;
+  height: 2vh;
+  transform: translate(-50%, -50%) scale(88.8888888889);
+  transition: transform 0.5s ease-out;
+}
+.video-is-open8 .play-btn:after {
   width: 2vh;
   height: 2vh;
   transform: translate(-50%, -50%) scale(88.8888888889);
@@ -653,7 +713,7 @@ iframe {
 }
 
 .milstones-item::before {
-  content: '';
+  content: "";
   position: absolute;
   inset: 1px;
   background: #282e36;
