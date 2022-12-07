@@ -579,6 +579,7 @@ iframe {
 .products-title {
   font-family: var(--ff-kanit);
   color: var(--white_a10);
+  text-transform: uppercase;
 }
 .products-text {
   color: var(--white_a9);
