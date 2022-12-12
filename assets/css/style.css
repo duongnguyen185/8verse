@@ -112,6 +112,7 @@
   font-weight: var(--fw-600);
   font-family: var(--ff-kanit);
   color: var(--white_a10);
+  cursor: default;
 }
 
 .img-holder {
@@ -584,8 +585,12 @@ iframe {
   color: var(--white_a10);
   text-transform: uppercase;
 }
+.products .products-title {
+  cursor: default;
+}
 .products-text {
   color: var(--white_a9);
+  cursor: text;
 }
 
 /* ------------ STATES ------------ */
