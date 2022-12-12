@@ -70,7 +70,7 @@
 
 .has-before::before,
 .has-after::after {
-  content: "";
+  content: '';
   position: absolute;
 }
 
@@ -274,7 +274,7 @@
   display: grid;
   align-items: center;
   background-position: right;
-  background-image: url("../images/home-mobile.jpg");
+  background-image: url('../images/home-mobile.jpg');
 }
 
 .hero .section-subtitle {
@@ -524,7 +524,7 @@
 }
 
 .play-btn:after {
-  content: "";
+  content: '';
   position: absolute;
   top: 50%;
   left: 50%;
@@ -612,6 +612,9 @@ iframe {
 .video-is-open8:after {
   display: none;
 }
+.video-is-open9:after {
+  display: none;
+}
 
 .video-is-open #play-button1 {
   opacity: 1;
@@ -636,6 +639,9 @@ iframe {
   opacity: 1;
 }
 .video-is-open8 #play-button8 {
+  opacity: 1;
+}
+.video-is-open9 #play-button9 {
   opacity: 1;
 }
 
@@ -689,6 +695,12 @@ iframe {
   transform: translate(-50%, -50%) scale(88.8888888889);
   transition: transform 0.5s ease-out;
 }
+.video-is-open9 .play-btn:after {
+  width: 2vh;
+  height: 2vh;
+  transform: translate(-50%, -50%) scale(88.8888888889);
+  transition: transform 0.5s ease-out;
+}
 
 /*-----------------------------------*\
   #MILSTONES
@@ -714,7 +726,7 @@ iframe {
 }
 
 .milstones-item::before {
-  content: "";
+  content: '';
   position: absolute;
   inset: 1px;
   background: #282e36;
