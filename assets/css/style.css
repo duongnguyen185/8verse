@@ -830,7 +830,7 @@ iframe {
   gap: 30px;
   overflow-x: auto;
   padding-block-end: 30px;
-  justify-content: center;
+  justify-content: flex-start;
   scroll-snap-type: inline mandatory;
 }
 
