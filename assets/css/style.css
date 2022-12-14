@@ -458,7 +458,7 @@
 .service-card .card-content {
   padding: 20px;
   background: #282e36;
-  min-height: 250px;
+  /* min-height: 250px; */
 }
 
 .service-card .card-title {
